@@ -7,7 +7,7 @@ import { NgImageSliderModule } from 'ng-image-slider'
 const MaterialComponents=[
   MatSlideToggleModule,
   MatToolbarModule,
-  NgImageSliderModule
+  NgImageSliderModule,
 ]
 
 @NgModule({

@@ -7,3 +7,7 @@
     padding: 2em;
     background-color: rgb(5, 5, 5);
 }
+.carousel{
+    height: 150px;
+    background-color: antiquewhite;
+}
