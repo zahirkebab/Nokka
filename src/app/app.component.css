@@ -2,12 +2,27 @@
     position: fixed;
     bottom: 0; 
     z-index: 1000;
+    height: 10%;
     display: flex;
     justify-content: space-between;
     padding: 2em;
     background-color: rgb(5, 5, 5);
 }
+
 .carousel{
-    height: 150px;
-    background-color: antiquewhite;
+    
+    width: 200vh;
+    background-color: rgb(255, 175, 71);
+}
+.container{
+    float:left;
+    height: 100vh;
+    width: 100vh;
+    background-color: aqua;
+    display:block;
+}
+.slide_img{
+    min-width: 200vh;
+    max-height: 1000vh;
+    object-fit: contain
 }
