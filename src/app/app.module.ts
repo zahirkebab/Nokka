@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { CarouselModule } from '@coreui/angular';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { MaterialModule } from './material/material.module';
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MaterialModule,
-  
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent],
