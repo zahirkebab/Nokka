@@ -13,13 +13,18 @@
 }
 .navtext{
     font-size: 1.5vw;
-    color: black;
-    font-family: serif;
+  
     float:right;
     padding: 8px 12px;
     text-align: center;
     width: 100%;
     margin-left: 18vw;
+}
+a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    font-family: serif;
 }
 
 .carousel{
